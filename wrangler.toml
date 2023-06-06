@@ -1,23 +1,23 @@
 name = "pb"
 compatibility_date = "2023-01-28"
 
-account_id = "1ddaf86dbca12e8f4fcaa76f32bb707d"
+#account_id = "1ddaf86dbca12e8f4fcaa76f32bb707d"
 workers_dev = false
 main = "src/index.js"
 
 # config for default production environment
 vars = { ENVIRONMENT = "production" }
-route = { pattern = "shz.al", custom_domain = true }
+route = { pattern = "pastebin.kubectyl.org", custom_domain = true }
 kv_namespaces = [
-  { binding = "PB", id = "cc398e983a234aa19de5ea6af571a483" },
+  { binding = "PB", id = "5a48ae45131842bb956f6caffb258432" },
 ]
 
-[env.preview]
-vars = { ENVIRONMENT = "preview" }
-route = { pattern = "pb-preview.shz.al", custom_domain = true }
-minify = false
+#[env.preview]
+#vars = { ENVIRONMENT = "preview" }
+#route = { pattern = "pb-preview.kubectyl.org", custom_domain = true }
+#minify = false
 
-kv_namespaces = [
-  { binding = "PB", id = "f56ae0043abd4bb4ab61c52071bd9c7f" }
-]
+#kv_namespaces = [
+#  { binding = "PB", id = "da864c4e1e9e448baff18bbdf952f955" }
+#]
 
