@@ -7,7 +7,7 @@ main = "src/index.js"
 
 # config for default production environment
 vars = { ENVIRONMENT = "production" }
-route = { pattern = "pastebin.kubectyl.org", custom_domain = true }
+route = { pattern = "pb.kubectyl.org", custom_domain = true }
 kv_namespaces = [
   { binding = "PB", id = "5a48ae45131842bb956f6caffb258432" },
 ]
