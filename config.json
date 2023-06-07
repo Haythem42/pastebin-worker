@@ -1,4 +1,4 @@
 {
-  "BASE_URL": "https://pastebin.kubectyl.org",
+  "BASE_URL": "https://pb.kubectyl.org",
   "REPO": "https://github.com/kubectyl/pastebin-worker"
 }
